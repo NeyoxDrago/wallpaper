@@ -1,0 +1,32 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@android:color/background_dark</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="CollapsedTextAppearence" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@android:color/background_dark</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+    <style name="ExpandedTextAppearence" parent="@android:style/TextAppearance.Material.Title"
+        tools:ignore="NewApi">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@android:color/background_dark</item>
+        <item name="android:textStyle">bold|italic</item>
+        <item name="android:background">#4f0e0d0e</item>
+    </style>
+    
+    <style name="Dilaoganimation">
+        <item name="android:windowEnterAnimation">@anim/in</item>
+        <item name ="android:windowExitAnimation">@anim/out</item>
+    </style>
+
+
+</resources>

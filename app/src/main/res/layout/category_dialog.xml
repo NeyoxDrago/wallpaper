@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="600dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <ImageView
+        android:background="@drawable/potraitshape"
+        android:id="@+id/dialog_image"
+        android:layout_width="350dp"
+        android:layout_height="600dp"
+        android:scaleType="fitXY"
+        android:src="@mipmap/ic_launcher" />
+
+    <Button
+        android:id="@+id/view_wallpaper"
+        android:textColor="#FAFAFA"
+        android:layout_alignParentBottom="true"
+        android:background="#00000000"
+        android:text="View Wallpaper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
